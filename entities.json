@@ -18,7 +18,7 @@
 		"name":"Collective Brain Foam",
 		"behavior":"friendly",
 		"size":300,
-		"abilities": [ "integration/symbiotic" ]
+		"abilities": [ "integration-symbiotic" ]
 	},
 	"172":{
 		"name":"The Gearman",
@@ -37,7 +37,7 @@
 			"onObserved": "0",
 			"onNotObserved":"100"
 		},
-		"abilities": [ "attack/neck-snapping" ]
+		"abilities": [ "attack-neckSnapping" ]
 	}
 
 }

@@ -12,7 +12,7 @@
 		"amount":62,
 		"synthesisability":1,
 		"effects": {
-			"onIndigestion":"cure/all"
+			"onIndigestion":"cure-all"
 		}
 	}
 }

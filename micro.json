@@ -13,14 +13,14 @@
 		"infectiousness":100,
 		"fatality":100,
 		"transmission":["bodily-fluids"],
-		"symptoms": ["coma", "undead", "super-strength", "low-sensory", "low-motion", "ai/hostile"]
+		"symptoms": ["coma", "undead", "strength-super", "sensory-low", "motion-low", "ai-hostile"]
 	},
 	"009":{
 		"name":"Red Ice",
 		"infectiousness":20,
 		"subject":["water", "living"],
 		"fatality":100,
-		"symptoms": ["color/red", "no-motion", "pain-lot"]
+		"symptoms": ["color-red", "motion-no", "pain-lot"]
 	}
 
 }
