@@ -1,0 +1,43 @@
+{	
+	"DEFAULT_VALUES":{
+		"name":"",
+		"toughness":1,
+		"movemoment":0,
+		"acid-resistance":1,
+		"fire-resistance":1,
+		"strength":0,
+		"size":1,
+		"behavior":"idle",
+		"related": [],
+		"abilities": []
+	},
+	"170":{
+		"name"
+	},
+	"171":{
+		"name":"Collective Brain Foam",
+		"behavior":"friendly",
+		"size":300,
+		"abilities": [ "integration/symbiotic" ]
+	},
+	"172":{
+		"name":"The Gearman",
+		"behavior":"friendly",
+		"fire-restistance:":0,
+		"related": [2776],
+		"abilities": ["engineer"]
+	},
+	"173":
+	{
+		"name":"",
+		"toughness":10,
+		"strength":10,
+		"behavior":"hostile",
+		"movemoment":{
+			"onObserved": "0",
+			"onNotObserved":"100"
+		},
+		"abilities": [ "attack/neck-snapping" ]
+	}
+
+}
