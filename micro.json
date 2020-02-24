@@ -1,6 +1,9 @@
 {	
 	"DEFUALT_VALUES":{
+		"name":"",
 		"infectiousness":50,
+		"subject":["human"],
+		"subject_comment": "entities, that this SCP will infect",
 		"fatality":50,
 		"transmission":[],
 		"symptons":[]
@@ -11,5 +14,13 @@
 		"fatality":100,
 		"transmission":["bodily-fluids"],
 		"symptoms": ["coma", "undead", "super-strength", "low-sensory", "low-motion", "ai/hostile"]
+	},
+	"009":{
+		"name":"Red Ice",
+		"infectiousness":20,
+		"subject":["water", "living"],
+		"fatality":100,
+		"symptoms": ["color/red", "no-motion", "pain-lot"]
 	}
+
 }
