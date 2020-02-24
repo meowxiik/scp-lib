@@ -10,6 +10,6 @@
 		"infectiousness":100,
 		"fatality":100,
 		"transmission":["bodily-fluids"],
-		"symptoms": ["coma", "undead", "super-strength", "low-sensory", "low-motion"]
+		"symptoms": ["coma", "undead", "super-strength", "low-sensory", "low-motion", "ai/hostile"]
 	}
 }
