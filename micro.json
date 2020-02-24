@@ -1,0 +1,15 @@
+{	
+	"DEFUALT_VALUES":{
+		"infectiousness":50,
+		"fatality":50,
+		"transmission":[],
+		"symptons":[]
+	},
+
+	"008":{
+		"infectiousness":100,
+		"fatality":100,
+		"transmission":["bodily-fluids"],
+		"symptoms": ["coma", "undead", "super-strength", "low-sensory", "low-motion"]
+	}
+}

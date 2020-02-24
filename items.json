@@ -1,0 +1,18 @@
+{
+	"DEFAULT_VALUES":{
+		"size":10,
+		"size_comment": "in centimeters squared",
+		"amount": 1,
+		"synthesisability":0,
+		"synthesisability_comment": "how hard it is to synthesize: 0 - impossible, 100 - very easy",
+		"effects": {}
+	},
+	"500":{
+		"size":1,
+		"amount":62,
+		"synthesisability":1,
+		"effects": {
+			"onIndigestion":"cure/all"
+		}
+	}
+}
