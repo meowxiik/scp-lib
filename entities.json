@@ -1,18 +1,33 @@
 {	
 	"DEFAULT_VALUES":{
 		"name":"",
+		"description":"",
 		"toughness":1,
 		"movemoment":0,
 		"acid-resistance":1,
 		"fire-resistance":1,
 		"strength":0,
 		"size":1,
+		"size_comment":"ROUGHLY_IN_M^3",
 		"behavior":"idle",
 		"related": [],
-		"abilities": []
+		"abilities": [],
+		"events": {},
+		"author":"auto" // author can be auto scrubebd from SCP Wiki
 	},
-	"170":{
-		"name"
+	"002":{
+		"name":"The \"Living\" Room",
+		"description": "A large, fleshy room",
+		"size":60,
+		"events":
+			{
+				"onTouch": "transmutate 002-1" // Should only work for human-like objects, however I refuse to add more complexity as of now
+			}
+	},
+	"002-1":{
+		"name":"SCP 002 generated item",
+		"description":"A household object, made out of organic materials",
+		"size":0.1
 	},
 	"171":{
 		"name":"Collective Brain Foam",
